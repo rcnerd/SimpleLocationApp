@@ -38,12 +38,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
 
-        longitudeValueBest = (TextView) findViewById(R.id.longitudeValueBest);
-        latitudeValueBest = (TextView) findViewById(R.id.latitudeValueBest);
+
         longitudeValueGPS = (TextView) findViewById(R.id.longitudeValueGPS);
         latitudeValueGPS = (TextView) findViewById(R.id.latitudeValueGPS);
-        longitudeValueNetwork = (TextView) findViewById(R.id.longitudeValueNetwork);
-        latitudeValueNetwork = (TextView) findViewById(R.id.latitudeValueNetwork);
+
     }
 
     private boolean checkLocation() {
